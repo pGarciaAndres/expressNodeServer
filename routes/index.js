@@ -7,3 +7,4 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+console.log("Listen at Port 3000");

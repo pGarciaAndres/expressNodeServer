@@ -3,8 +3,8 @@ var app = express();
 var path = require('path');
 
 app.get('/', function(req, res) {
-    console.log("Running at Port 8080");
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
 app.listen(8080);
+console.log("Running at Port 8080");
